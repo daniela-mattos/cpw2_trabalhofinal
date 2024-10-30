@@ -1,0 +1,26 @@
+{
+    "palavras": [
+      { "palavra": "GNIDOC", "linha": 0, "coluna": 5, "horizontal": false },
+      { "palavra": "BASIC", "linha": 0, "coluna": 6, "horizontal": false },
+      { "palavra": "PYTHON", "linha": 6, "coluna": 0, "horizontal": true },
+      { "palavra": "PASCAL", "linha": 0, "coluna": 1, "horizontal": false },
+      { "palavra": "COBOL", "linha": 8, "coluna": 2, "horizontal": true },
+      { "palavra": "HCTARCS", "linha": 1, "coluna": 8, "horizontal": false },
+      { "palavra": "PHP", "linha": 1, "coluna": 7, "horizontal": true },
+      { "palavra": "JAVASCRIPT", "linha": 0, "coluna": 0, "diagonal": true },
+      { "palavra": "LUA", "linha": 0, "coluna": 2, "diagonal": true }
+    ],
+    "dicas": [
+    "→ Relacionado à programação.",
+    "→ Coding",
+    "→ Basic",
+    "→ Python",
+    "→ Pascal",
+    "→ Cobol",
+    "→ Scratch",
+    "→ PHP",
+    "→ Javascript",
+    "→ Lua"
+  ]
+  }
+
