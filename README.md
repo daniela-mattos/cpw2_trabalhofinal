@@ -29,6 +29,6 @@ O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas 
 
 Ou, acesse: 
 
-  Trabalho desenvolvido na disciplina de Construção de Páginas Web 2
-  Prof. Lucian José Gonçales
-  Curso: Sistemas para Internet - IFRS/POA
+  <p>Trabalho desenvolvido na disciplina de Construção de Páginas Web 2</p>
+  <p>Prof. Lucian José Gonçales</p>
+  <p>Curso: Sistemas para Internet - IFRS/POA</p>
