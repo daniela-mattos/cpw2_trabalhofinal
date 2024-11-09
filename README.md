@@ -29,6 +29,6 @@ O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas 
 
 2. Abra o arquivo index.html em seu navegador para começar a jogar.
 
-Ou, acesse: 
+ 
 
 
