@@ -44,11 +44,11 @@ function criarGrade() {
 
             // Adicionar event listener para alternar a cor ao clicar e registrar a célula
             celula.addEventListener('click', () => {
-                if (celula.style.backgroundColor === 'yellow') {
+                if (celula.style.backgroundColor === 'rgb(191, 174, 252)') {
                     celula.style.backgroundColor = '';
                     removeCelulaClicada(i, j);
                 } else {
-                    celula.style.backgroundColor = 'yellow';
+                    celula.style.backgroundColor = '#bfaefc';
                     clicadas.push({ linha: i, coluna: j });
                 }
             });
@@ -150,7 +150,7 @@ function verificar() {
             }
 
             // Verificar se a célula está marcada corretamente
-            if (!celula || celula.style.backgroundColor !== 'yellow') {
+            if (!celula || celula.style.backgroundColor !== 'rgb(191, 174, 252)') {
                 palavraCompleta = false;
                 todasCertas = false;
                 break;
@@ -176,14 +176,16 @@ function verificar() {
                     celula = cacaPalavras.children[linha + i].children[coluna];
                 }
                 if (celula) {
-                    celula.style.backgroundColor = 'green';
+                    celula.style.backgroundColor = '#a4ffba';
                 }
             }
         });
-        alert('Parabéns! Você encontrou todas as palavras!');
         removerPistas(); 
+        const acertou = document.getElementById('pistas');
+        acertou.innerHTML = '<h3>Parabéns! Você encontrou todas as palavras.</h3>';
         document.getElementById('btnPistas').disabled = true;
         document.getElementById('btnDesistir').disabled = true;
+        document.getElementById('btnVerificar').disabled = true;
     } else {
         // Caso contrário, deixar todo tabuleiro branco
         for (let i = 0; i < linhas; i++) {
@@ -192,7 +194,7 @@ function verificar() {
                 celula.style.backgroundColor = '';
             }
         }
-        alert('Tente novamente!');
+        alert('Você precisa encontrar todas as palavras. Tente novamente!');
     }
 }
 
@@ -210,7 +212,7 @@ function revela() {
                 celula = cacaPalavras.children[linha + i].children[coluna];
             }
             if (celula) {
-                celula.style.backgroundColor = 'green';
+                celula.style.backgroundColor = '#a4ffba';
             }
         }
     });
