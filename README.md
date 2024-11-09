@@ -1,6 +1,8 @@
 # Caça-Palavras
 
-Este é um jogo de caça-palavras desenvolvido em HTML, CSS e JavaScript.
+<p>Este é um jogo de caça-palavras desenvolvido em HTML, CSS e JavaScript para a disciplina de Construção de Páginas Web 2<br>
+  Prof. Lucian José Gonçales<br>
+  Curso: Sistemas para Internet - IFRS/POA</p>
 
 ## Comportamento do Jogo
 
@@ -29,6 +31,4 @@ O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas 
 
 Ou, acesse: 
 
-  <p>Trabalho desenvolvido na disciplina de Construção de Páginas Web 2<br>
-  Prof. Lucian José Gonçales<br>
-  Curso: Sistemas para Internet - IFRS/POA</p>
+
