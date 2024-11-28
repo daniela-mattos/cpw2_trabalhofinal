@@ -24,14 +24,16 @@ O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas 
 ### Visão Geral da Aplicação
 ![Capturas de Tela](telas/telas.jpg)
 
-## Instruções para Executar o Jogo
+## Instruções para Baixar o Jogo
 
 1. Clone este repositório em seu ambiente local.
    ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
-2. Abra o arquivo index.html em seu navegador para começar a jogar.
+2. Abra o arquivo index.html em seu navegador para executar a aplicação.
 
+### Para jogar, acesse a demonstração aqui:
+[Abrir jogo - Caça-Palavras](https://cpwcp.vercel.app/)
  
 
 
