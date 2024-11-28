@@ -4,6 +4,12 @@
   Prof. Lucian José Gonçales<br>
   Curso: Sistemas para Internet - IFRS/POA</p>
 
+### Tecnologias Utilizadas
+
+- **HTML**: Estrutura do jogo.
+- **CSS**: Estilização do jogo.
+- **JavaScript**: Lógica do jogo, manipulação do DOM e interatividade.
+
 ## Comportamento do Jogo
 
 O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas de forma horizontal, vertical ou diagonal. O objetivo do jogador é encontrar e marcar todas as palavras na grade. O jogador pode clicar em uma letra para marcar sua seleção; se clicar novamente, a seleção é desfeita. Ao clicar em "Verificar", o jogo validará se todas as palavras foram encontradas corretamente.
@@ -15,11 +21,8 @@ O jogo consiste em um tabuleiro de 10x10 letras onde palavras estão escondidas 
 - **Botão Desistir**: Revela todas as palavras escondidas na grade.
 - **Botão Pistas**: Mostra dicas para ajudar a encontrar as palavras.
 
-### Tecnologias Utilizadas
-
-- **HTML**: Estrutura do jogo.
-- **CSS**: Estilização do jogo.
-- **JavaScript**: Lógica do jogo, manipulação do DOM e interatividade.
+### Visão Geral da Aplicação
+![Capturas de Tela](telas/telas.jpg)
 
 ## Instruções para Executar o Jogo
 
