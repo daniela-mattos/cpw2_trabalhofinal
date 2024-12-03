@@ -1,6 +1,6 @@
 # Caça-Palavras
 
-<p>Este é um jogo de caça-palavras desenvolvido em HTML, CSS e JavaScript para a disciplina de Construção de Páginas Web 2<br>
+<p>Este é um jogo de caça-palavras desenvolvido em HTML, CSS e JavaScript, com aplicação de AJAX, para a disciplina de Construção de Páginas Web 2<br>
   Prof. Lucian José Gonçales<br>
   Curso: Sistemas para Internet - IFRS/POA</p>
 
